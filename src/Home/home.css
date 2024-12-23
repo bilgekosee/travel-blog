@@ -3,8 +3,11 @@ body {
 }
 .container {
   border-radius: 20px 20px 0 0;
-  background-image: url("/Users/bilgekose/code/travel-blog/public/header.png");
-  height: 442px;
+  background-image: url("/Users/bilgekose/code/travel-blog/public/header1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
 }
 .header {
   display: flex;
@@ -66,4 +69,58 @@ body {
   border-radius: 50%;
   background-color: white;
   color: rgb(139, 139, 139);
+}
+.social-media-icons > :first-child {
+  background-color: #ffa902;
+}
+.icon:hover {
+  background-color: #ffa902;
+}
+
+.divider {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  margin: auto 190px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 300px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+}
+.nav-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-icon a {
+  margin-right: 5px;
+}
+.title-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.big-header-title {
+  color: white;
+  margin-top: 100px;
+  font-size: 80px;
+}
+.title-header p {
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  max-width: 600px;
+}
+.title-header h2 {
+  display: flex;
+  align-items: center;
+  color: #ffa902;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 700;
 }
