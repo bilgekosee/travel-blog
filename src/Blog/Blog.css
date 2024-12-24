@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
 }
 
@@ -25,7 +25,8 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   height: auto;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -102,4 +103,19 @@
   border: none;
   color: #777;
   font-size: 20px;
+}
+@media screen and (max-width: 710px) {
+  .blog-container {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .blog-container {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 819px) {
+  .blog-container {
+    padding: 0 30px;
+  }
 }
