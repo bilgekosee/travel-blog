@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Category from "../Category/Category";
-
+import Blog from "../Blog/Blog";
 import "./home.css";
 
 const Home = () => {
@@ -90,6 +90,7 @@ const Home = () => {
         </div>
       </div>
       <Category />
+      <Blog />
     </>
   );
 };
