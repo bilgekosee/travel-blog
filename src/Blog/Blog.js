@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Blog.css";
+import Blogtwo from "./Blogtwo.js";
 const data = [
   {
     id: 1,
@@ -126,6 +127,7 @@ const Blog = () => {
           </button>
         </div>
       </div>
+      <Blogtwo />
     </section>
   );
 };
