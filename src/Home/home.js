@@ -9,6 +9,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Category from "../Category/Category";
 import Blog from "../Blog/Blog";
 import "./home.css";
+import Map from "../Map/Map";
 
 const Home = () => {
   return (
@@ -91,6 +92,7 @@ const Home = () => {
       </div>
       <Category />
       <Blog />
+      <Map />
     </>
   );
 };
