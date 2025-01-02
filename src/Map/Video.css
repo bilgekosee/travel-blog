@@ -78,3 +78,9 @@
   align-items: center;
   margin-top: 17px;
 }
+
+@media (max-width: 478px) {
+  .content {
+    padding: 0 20px;
+  }
+}

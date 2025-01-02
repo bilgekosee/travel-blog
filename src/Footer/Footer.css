@@ -36,3 +36,26 @@
 .socialMedia-footer :hover {
   background-color: white;
 }
+@media (max-width: 1045px) {
+  .part2-footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-category {
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  .socialMedia-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
