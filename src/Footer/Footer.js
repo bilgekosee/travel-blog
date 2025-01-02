@@ -10,11 +10,6 @@ import {
 const Footer = () => {
   return (
     <section id="contact">
-      <div className="part1-footer">
-        <div className="footer-title-header">
-          Fallowed Me Instagram<div className="account-ins">@bilgekosee</div>
-        </div>
-      </div>
       <div className="part2-footer">
         <div className="bilge">@2024 bilgekose All Right Reserved</div>
         <div className="footer-category">
