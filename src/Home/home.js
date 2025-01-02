@@ -10,6 +10,7 @@ import Category from "../Category/Category";
 import Blog from "../Blog/Blog";
 import "./home.css";
 import Map from "../Map/Map";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -55,23 +56,23 @@ const Home = () => {
           <div className="divider"></div>
           <div className="navbar">
             <span className="nav-icon">
-              <a>Home</a>
+              <a href="/">Home</a>
               <FontAwesomeIcon icon={faChevronDown} size="xs" />
             </span>
             <span className="nav-icon">
-              <a>About Me</a>
+              <a href="/">About Me</a>
               <FontAwesomeIcon icon={faChevronDown} size="xs" />
             </span>
             <span className="nav-icon">
-              <a>Category</a>
+              <a href="#category">Category</a>
               <FontAwesomeIcon icon={faChevronDown} size="xs" />
             </span>
             <span className="nav-icon">
-              <a>Blog</a>
+              <a href="#blog">Blog</a>
               <FontAwesomeIcon icon={faChevronDown} size="xs" />
             </span>
             <span className="nav-icon">
-              <a>Contact Me</a>
+              <a href="#contact">Contact Me</a>
               <FontAwesomeIcon icon={faChevronDown} size="xs" />
             </span>
           </div>
@@ -93,6 +94,7 @@ const Home = () => {
       <Category />
       <Blog />
       <Map />
+      <Footer />
     </>
   );
 };

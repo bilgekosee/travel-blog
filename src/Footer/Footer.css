@@ -1,0 +1,41 @@
+.part1-footer {
+  background-color: white;
+}
+.footer-title-header {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-weight: 600;
+
+  flex-direction: column;
+}
+.account-ins {
+  color: #ffa902;
+  font-size: 20px;
+  font-weight: 500;
+}
+.bilge {
+  color: white;
+  margin-top: 15px;
+}
+.part2-footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+.footer-category {
+  display: flex;
+  gap: 15px;
+  color: white;
+  margin-top: 15px;
+}
+.socialMedia-footer {
+  display: flex;
+  gap: 15px;
+}
+.socialMedia-footer :hover {
+  background-color: white;
+}

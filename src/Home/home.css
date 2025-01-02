@@ -76,6 +76,15 @@ body {
 .icon:hover {
   background-color: #ffa902;
 }
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .divider {
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
